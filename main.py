@@ -1,5 +1,4 @@
 field = [["-" for j in range(3)] for i in range(3)] #предупреждаю код ужасен)) не знаю как улучшить(
-print("dd")
 
 def find_tire():
     check = 0
