@@ -52,6 +52,7 @@ while True:
         field_output()
         if not find_tire():
             print("Победила дружба!!!)))")
+            input()
             break
         if n_moves % 2 == 1:
             step = list(map(int, input("ходит 'х' введите строку и столбец (через пробел) x: ").split()))
@@ -59,6 +60,7 @@ while True:
                 if win("x"):
                     print("Поздравляю!!! Выиграл игрок 'x'")
                     field_output()
+                    input()
                     break
                 n_moves += 1
         else:
@@ -67,6 +69,7 @@ while True:
                 if win("0"):
                     print("Поздравляю!!! Выиграл игрок '0'")
                     field_output()
+                    input()
                     break
                 n_moves += 1
     except:
